@@ -1,506 +1,101 @@
-[15:35:52] [ServerMain/WARN]: Did not find udev library in operating system. Some features may not work.
-[15:35:52] [ServerMain/WARN]: Failed retrieving info for group processor
-java.lang.NoClassDefFoundError: Could not initialize class com.sun.jna.Native
-	at oshi.jna.platform.linux.LinuxLibc.<clinit>(LinuxLibc.java:22) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.software.os.linux.LinuxOperatingSystem.<clinit>(LinuxOperatingSystem.java:98) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.platform.linux.LinuxCentralProcessor.initProcessorCounts(LinuxCentralProcessor.java:171) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.common.AbstractCentralProcessor.<init>(AbstractCentralProcessor.java:67) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.platform.linux.LinuxCentralProcessor.<init>(LinuxCentralProcessor.java:58) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.platform.linux.LinuxHardwareAbstractionLayer.createProcessor(LinuxHardwareAbstractionLayer.java:43) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.util.Memoizer$1.get(Memoizer.java:61) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.common.AbstractHardwareAbstractionLayer.getProcessor(AbstractHardwareAbstractionLayer.java:48) ~[oshi-core-6.4.10.jar:6.4.10]
-	at net.minecraft.SystemReport.c(SourceFile:79) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:87) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:79) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.e(SourceFile:56) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:87) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.<init>(SourceFile:56) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.CrashReport.<init>(CrashReport.java:34) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.CrashReport.g(CrashReport.java:256) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.server.Main.main(Main.java:119) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at org.bukkit.craftbukkit.Main.main(Main.java:226) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at org.bukkit.craftbukkit.bootstrap.Main.lambda$run$0(Main.java:60) ~[server.jar:?]
+[04:42:20] [Netty Epoll Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:555) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:172) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.UnsatisfiedLinkError: /root/.cache/JNA/temp/jna3510211209049113027.tmp: /root/.cache/JNA/temp/jna3510211209049113027.tmp: failed to map segment from shared object [in thread "ServerMain"]
-	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method) ~[?:?]
-	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:331) ~[?:?]
-	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:197) ~[?:?]
-	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139) ~[?:?]
-	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2418) ~[?:?]
-	at java.base/java.lang.Runtime.load0(Runtime.java:852) ~[?:?]
-	at java.base/java.lang.System.load(System.java:2025) ~[?:?]
-	at com.sun.jna.Native.loadNativeDispatchLibraryFromClasspath(Native.java:1041) ~[jna-5.14.0.jar:5.14.0 (b0)]
-	at com.sun.jna.Native.loadNativeDispatchLibrary(Native.java:1011) ~[jna-5.14.0.jar:5.14.0 (b0)]
-	at com.sun.jna.Native.<clinit>(Native.java:221) ~[jna-5.14.0.jar:5.14.0 (b0)]
-	at com.sun.jna.platform.linux.Udev.<clinit>(Udev.java:37) ~[jna-platform-5.14.0.jar:5.14.0 (b0)]
-	at oshi.software.os.linux.LinuxOperatingSystem.<clinit>(LinuxOperatingSystem.java:80) ~[oshi-core-6.4.10.jar:6.4.10]
-	... 18 more
-[15:35:52] [ServerMain/WARN]: Failed retrieving info for group memory
-java.lang.NoClassDefFoundError: Could not initialize class oshi.software.os.linux.LinuxOperatingSystem
-	at oshi.hardware.platform.linux.LinuxGlobalMemory.<clinit>(LinuxGlobalMemory.java:28) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.platform.linux.LinuxHardwareAbstractionLayer.createMemory(LinuxHardwareAbstractionLayer.java:38) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.util.Memoizer$1.get(Memoizer.java:61) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.common.AbstractHardwareAbstractionLayer.getMemory(AbstractHardwareAbstractionLayer.java:60) ~[oshi-core-6.4.10.jar:6.4.10]
-	at net.minecraft.SystemReport.a(SourceFile:81) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:87) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:81) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.e(SourceFile:56) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:87) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.<init>(SourceFile:56) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.CrashReport.<init>(CrashReport.java:34) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.CrashReport.g(CrashReport.java:256) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.server.Main.main(Main.java:119) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at org.bukkit.craftbukkit.Main.main(Main.java:226) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at org.bukkit.craftbukkit.bootstrap.Main.lambda$run$0(Main.java:60) ~[server.jar:?]
+[10:50:03] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:555) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:172) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: Could not initialize class com.sun.jna.Native [in thread "ServerMain"]
-	at oshi.jna.platform.linux.LinuxLibc.<clinit>(LinuxLibc.java:22) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.software.os.linux.LinuxOperatingSystem.<clinit>(LinuxOperatingSystem.java:98) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.platform.linux.LinuxCentralProcessor.initProcessorCounts(LinuxCentralProcessor.java:171) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.common.AbstractCentralProcessor.<init>(AbstractCentralProcessor.java:67) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.platform.linux.LinuxCentralProcessor.<init>(LinuxCentralProcessor.java:58) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.platform.linux.LinuxHardwareAbstractionLayer.createProcessor(LinuxHardwareAbstractionLayer.java:43) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.util.Memoizer$1.get(Memoizer.java:61) ~[oshi-core-6.4.10.jar:6.4.10]
-	at oshi.hardware.common.AbstractHardwareAbstractionLayer.getProcessor(AbstractHardwareAbstractionLayer.java:48) ~[oshi-core-6.4.10.jar:6.4.10]
-	at net.minecraft.SystemReport.c(SourceFile:79) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:87) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	at net.minecraft.SystemReport.a(SourceFile:79) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
-	... 9 more
-[15:36:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:36:07] [ServerMain/INFO]: Loaded 1290 recipes
-[15:36:09] [Server thread/INFO]: Starting minecraft server version 1.21
-[15:36:09] [Server thread/INFO]: Loading properties
-[15:36:09] [Server thread/INFO]: This server is running CraftBukkit version 4226-Spigot-146439e-2889b3a (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[15:36:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:36:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:36:10] [Server thread/INFO]: Debug logging is disabled
-[15:36:10] [Server thread/INFO]: Default game type: SURVIVAL
-[15:36:10] [Server thread/INFO]: Generating keypair
-[15:36:10] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25565
-[15:36:11] [Server thread/INFO]: Using epoll channel type
-[15:36:12] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.0.15
-[15:36:12] [Server thread/INFO]: [Harbor] Loading Harbor v1.6.3
-[15:36:12] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.4.0-SNAPSHOT
-[15:36:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:36:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:36:15] [Server thread/INFO]: [CraftableSaddles] Loading CraftableSaddles v1.1.1
-[15:36:15] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.24.0
-[15:36:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.15
-[15:36:18] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21[32;1m.[0;39m[m
-[15:36:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:36:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:36:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:36:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:36:19] [Server thread/INFO]: Preparing level "world"
-[15:36:19] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:36:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:36:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:36:19] [Server thread/INFO]: View Distance: 10
-[15:36:19] [Server thread/INFO]: Simulation Distance: 10
-[15:36:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:36:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:36:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:36:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:36:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:36:19] [Server thread/INFO]: Mob Spawn Range: 6
-[15:36:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:36:19] [Server thread/INFO]: Max TNT Explosions: 100
-[15:36:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:36:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:36:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:36:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:36:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:36:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:36:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:36:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:36:19] [Server thread/INFO]: View Distance: 10
-[15:36:19] [Server thread/INFO]: Simulation Distance: 10
-[15:36:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:36:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:36:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:36:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:36:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:36:20] [Server thread/INFO]: Mob Spawn Range: 6
-[15:36:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:36:20] [Server thread/INFO]: Max TNT Explosions: 100
-[15:36:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:36:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:36:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:36:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:36:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:36:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:36:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:36:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:36:28] [Server thread/INFO]: View Distance: 10
-[15:36:28] [Server thread/INFO]: Simulation Distance: 10
-[15:36:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:36:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:36:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:36:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:36:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:36:28] [Server thread/INFO]: Mob Spawn Range: 6
-[15:36:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:36:28] [Server thread/INFO]: Max TNT Explosions: 100
-[15:36:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:36:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:36:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:36:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:36:28] [Server thread/INFO]: -------- World Settings For [world_midwut_main] --------
-[15:36:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:36:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:36:28] [Server thread/INFO]: View Distance: 10
-[15:36:28] [Server thread/INFO]: Simulation Distance: 10
-[15:36:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:36:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:36:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:36:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:36:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:36:28] [Server thread/INFO]: Mob Spawn Range: 6
-[15:36:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:36:28] [Server thread/INFO]: Max TNT Explosions: 100
-[15:36:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:36:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:36:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:36:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:36:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:36:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:36:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:30] [Server thread/INFO]: Time elapsed: 2002 ms
-[15:36:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:36:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:31] [Server thread/INFO]: Time elapsed: 734 ms
-[15:36:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:36:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:32] [Worker-Main-1/INFO]: Preparing spawn area: 26%
-[15:36:32] [Server thread/INFO]: Time elapsed: 603 ms
-[15:36:32] [Server thread/INFO]: Preparing start region for dimension midwut:main
-[15:36:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:36:32] [Server thread/INFO]: Time elapsed: 213 ms
-[15:36:32] [Server thread/INFO]: [Harbor] Enabling Harbor v1.6.3
-[15:36:32] [Server thread/INFO]: [Harbor] Essentials not present- registering fallback AFK detection system.
-[15:36:32] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.0-SNAPSHOT
-[15:36:32] [Server thread/INFO]: [CraftableSaddles] Enabling CraftableSaddles v1.1.1
-[15:36:32] [Server thread/INFO]: [CraftableSaddles] CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 enabled
-[15:36:33] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.24.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.24.0) by ThizThizzyDizzy
-[15:36:33] [Server thread/INFO]: [TreeFeller] Server version: 1.21-R0.1-SNAPSHOT
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Grass: [DIRT, PODZOL, GRASS_BLOCK]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Overridables: [TALL_GRASS, FERN, CAVE_AIR, AIR, SEAGRASS, WATER, LARGE_FERN, TALL_SEAGRASS]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {BIRCH_WOOD=BIRCH_LOG, ACACIA_WOOD=ACACIA_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, JUNGLE_WOOD=JUNGLE_LOG, OAK_WOOD=OAK_LOG, SPRUCE_WOOD=SPRUCE_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, WARPED_HYPHAE=WARPED_STEM}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Effects: []
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[15:36:33] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[15:36:33] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[15:36:33] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[15:36:33] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[15:36:34] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[15:36:34] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[15:36:34] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[15:36:34] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[15:36:34] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[15:36:34] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[15:36:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:36:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:36:34] [Server thread/INFO]: [Geyser-Spigot] 
-[15:36:34] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.0-b595 (git-master-e0af0a5)
-[15:36:34] [Server thread/INFO]: [Geyser-Spigot] 
-[15:36:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:36:47] [Server thread/WARN]: [Geyser-Spigot] Third-party ears/capes have been removed from Geyser, if you still wish to have this functionality please use the extension: https://github.com/GeyserMC/ThirdPartyCosmetics
-[15:36:48] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:19132
-[15:36:48] [Server thread/INFO]: [Geyser-Spigot] Done (14.167s)! Run /geyser help for help!
-[15:36:48] [Server thread/INFO]: Done (29.564s)! For help, type "help"
-[15:36:48] [Server thread/INFO]: Starting GS4 status listener
-[15:36:48] [Server thread/INFO]: Thread Query Listener started
-[15:36:48] [Query Listener #1/INFO]: Query running on 127.0.0.1:25565
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.15[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mfcfa8b9[0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-[15:36:48] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[15:36:53] [Craft Scheduler Thread - 2/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse UUID[0;39m
-[15:36:59] [Craft Scheduler Thread - 2/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse Profile[0;39m
-[16:07:09] [User Authenticator #1/INFO]: UUID of player LuLaB0ludo is 53e174ec-b48a-3bf9-b23c-c0fb1c426266
-[16:07:13] [Server thread/INFO]: LuLaB0ludo joined the game
-[16:07:13] [Server thread/INFO]: LuLaB0ludo[/127.88.196.148:53467] logged in with entity id 65 at ([world]-75.9299512150827, 68.0, 33.048175477992295)
-[16:07:24] [Server thread/INFO]: LuLaB0ludo lost connection: Disconnected
-[16:07:24] [Server thread/INFO]: LuLaB0ludo left the game
-[16:07:29] [User Authenticator #2/INFO]: UUID of player LuLaB0ludo is 53e174ec-b48a-3bf9-b23c-c0fb1c426266
-[16:07:31] [Server thread/INFO]: LuLaB0ludo joined the game
-[16:07:31] [Server thread/INFO]: LuLaB0ludo[/127.88.196.148:40493] logged in with entity id 279 at ([world]-75.9299512150827, 68.0, 33.048175477992295)
-[16:28:28] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Laissrc
-[16:28:28] [localSession-7-2/INFO]: [Geyser-Spigot] Laissrc (logged in as: Laissrc) has connected to the Java server
-[16:28:28] [User Authenticator #3/INFO]: UUID of player Laissrc is bc3759cb-3b29-3a00-a110-b1f3483abece
-[16:28:28] [Server thread/INFO]: Laissrc joined the game
-[16:28:28] [Server thread/INFO]: Laissrc[/127.19.219.115:0] logged in with entity id 4358 at ([world]-158.73634, 63.0, 161.95769)
-[16:36:40] [Server thread/INFO]: Laissrc has made the advancement [Stone Age]
-[16:37:04] [Server thread/INFO]: Laissrc has made the advancement [Getting an Upgrade]
-[16:38:03] [Server thread/INFO]: Laissrc has made the advancement [Sweet Dreams]
-[17:16:13] [Server thread/INFO]: Laissrc has made the advancement [The Parrots and the Bats]
-[17:37:53] [localSession-7-2/INFO]: [Geyser-Spigot] Laissrc has disconnected from the Java server because of Bedrock client disconnected
-[17:37:53] [Server thread/INFO]: Laissrc lost connection: Disconnected
-[17:37:53] [Server thread/INFO]: Laissrc left the game
-[18:08:55] [Server thread/INFO]: LuLaB0ludo issued server command: /whitelist add LuLaB0ludo
-[18:08:55] [Server thread/INFO]: [LuLaB0ludo: Added LuLaB0ludo to the whitelist]
-[18:09:13] [Server thread/INFO]: LuLaB0ludo issued server command: /whitelist add Laissrc
-[18:09:13] [Server thread/INFO]: [LuLaB0ludo: Added Laissrc to the whitelist]
-[18:09:20] [Server thread/INFO]: LuLaB0ludo issued server command: /whitelist on
-[18:09:20] [Server thread/INFO]: [LuLaB0ludo: Whitelist is now turned on]
-[18:09:23] [Server thread/INFO]: LuLaB0ludo issued server command: /whitelist on
-[18:25:32] [Server thread/INFO]: LuLaB0ludo was shot by Pillager
-[18:25:44] [Server thread/INFO]: LuLaB0ludo has made the advancement [Voluntary Exile]
-[18:25:59] [Server thread/INFO]: LuLaB0ludo was shot by Pillager
-[18:26:23] [Server thread/INFO]: LuLaB0ludo was shot by Pillager
-[18:27:19] [Server thread/INFO]: LuLaB0ludo lost connection: Disconnected
-[18:27:19] [Server thread/INFO]: LuLaB0ludo left the game
-[18:41:58] [Server thread/INFO]: Saving the game (this may take a moment!)
-[18:41:58] [Server thread/INFO]: Saved the game
+[20:52:25] [Server thread/INFO]: Stopping the server
+[20:52:25] [Server thread/INFO]: Stopping server
+[20:52:25] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.24.0
+[20:52:25] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.24.0) by ThizThizzyDizzy
+[20:52:25] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
+[20:52:25] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:52:25] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:52:25] [Server thread/INFO]: [CraftableSaddles] Disabling CraftableSaddles v1.1.1
+[20:52:25] [Server thread/INFO]: [CraftableSaddles] CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 disabled
+[20:52:25] [Server thread/INFO]: [Harbor] Disabling Harbor v1.6.3
+[20:52:25] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.1
+[20:52:25] [Server thread/INFO]: Saving players
+[20:52:25] [Server thread/INFO]: Saving worlds
+[20:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_midwut_main]'/midwut:main
+[20:52:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:52:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:52:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:52:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (main): All chunks are saved
+[20:52:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:52:26] [Server thread/INFO]: Thread Query Listener stopped
