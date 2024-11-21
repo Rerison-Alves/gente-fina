@@ -1,4 +1,4 @@
 @ ECHO OFF
 start playit.exe
-java -Xms2048M -Xmx2048M -jar server.jar nogui
+java -Xms4096M -Xmx4096M -jar server.jar nogui
 pausa

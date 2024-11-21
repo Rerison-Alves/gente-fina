@@ -1,4 +1,4 @@
-last_update = 1720380700055
+last_update = 1732220391954
 api_url = "https://api.playit.cloud/agent"
 ping_target_addresses = []
 control_address = "control.playit.gg"
@@ -12,7 +12,7 @@ name = "unnamed"
 proto = "udp"
 tunnel_ip = "147.185.221.17"
 tunnel_from_port = 5033
-local_ip = "192.168.3.58"
+local_ip = "192.168.3.210"
 local_port = 19132
 
 [[mappings]]
@@ -20,5 +20,5 @@ name = "unnamed"
 proto = "tcp"
 tunnel_ip = "147.185.221.17"
 tunnel_from_port = 15820
-local_ip = "192.168.3.58"
+local_ip = "192.168.3.210"
 local_port = 25565
