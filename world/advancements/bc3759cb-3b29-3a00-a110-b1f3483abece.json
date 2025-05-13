@@ -829,9 +829,11 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2024-11-29 13:46:29 -0300",
       "minecraft:cow": "2024-07-08 14:16:13 -0300",
       "minecraft:armadillo": "2024-08-15 14:26:38 -0300",
-      "minecraft:sheep": "2024-07-08 21:42:20 -0300"
+      "minecraft:sheep": "2024-07-08 21:42:20 -0300",
+      "minecraft:bee": "2024-11-29 14:10:32 -0300"
     },
     "done": false
   },
@@ -3673,5 +3675,59 @@
     },
     "done": true
   },
-  "DataVersion": 4080
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-11-29 13:22:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-11-29 13:24:31 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-11-29 13:24:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-11-29 13:24:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-11-29 13:38:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-13 21:29:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-12-13 22:10:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-13 22:07:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-13 22:07:49 -0300"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
 }

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="plugins">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/CraftableSaddles-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/SkinsRestorer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/Harbor-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/TreeFeller-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/Geyser-Spigot.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
