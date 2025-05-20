@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2024-07-18 14:39:14 -0300",
+      "minecraft:savanna_plateau": "2025-05-19 22:04:01 -0300",
       "minecraft:beach": "2024-07-09 21:56:07 -0300",
       "minecraft:dark_forest": "2024-07-10 21:05:31 -0300",
       "minecraft:forest": "2024-07-08 14:26:38 -0300",
@@ -3731,15 +3732,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/leaf_litter": {
+  "minecraft:recipes/decorations/lodestone": {
     "criteria": {
-      "has_leaves": "2025-05-13 20:38:52 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/pale_oak_boat": {
-    "criteria": {
-      "in_water": "2025-05-13 21:13:34 -0300"
+      "has_iron_ingot": "2025-05-13 20:32:46 -0300"
     },
     "done": true
   },
@@ -3749,9 +3744,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lodestone": {
+  "minecraft:recipes/misc/leaf_litter": {
     "criteria": {
-      "has_iron_ingot": "2025-05-13 20:32:46 -0300"
+      "has_leaves": "2025-05-13 20:38:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-05-13 21:13:34 -0300"
     },
     "done": true
   },

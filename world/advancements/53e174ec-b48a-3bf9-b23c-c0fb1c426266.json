@@ -11,14 +11,19 @@
       "minecraft:flower_forest": "2024-07-17 13:47:40 -0300",
       "minecraft:savanna_plateau": "2024-07-17 13:46:46 -0300",
       "minecraft:beach": "2024-07-12 20:32:18 -0300",
+      "minecraft:dark_forest": "2025-05-19 21:29:54 -0300",
       "minecraft:forest": "2024-07-09 21:44:33 -0300",
       "minecraft:sparse_jungle": "2024-07-07 15:01:23 -0300",
       "minecraft:river": "2024-07-07 15:30:05 -0300",
       "minecraft:lukewarm_ocean": "2024-08-01 13:02:34 -0300",
       "minecraft:lush_caves": "2024-07-14 11:53:36 -0300",
       "minecraft:dripstone_caves": "2024-07-17 14:40:04 -0300",
+      "minecraft:old_growth_birch_forest": "2025-05-19 21:27:06 -0300",
       "minecraft:desert": "2024-07-09 21:54:20 -0300",
       "minecraft:jungle": "2024-07-09 21:53:48 -0300",
+      "minecraft:grove": "2025-05-19 21:33:29 -0300",
+      "minecraft:meadow": "2025-05-19 21:36:24 -0300",
+      "minecraft:birch_forest": "2025-05-19 21:27:25 -0300",
       "minecraft:savanna": "2024-07-17 13:45:01 -0300",
       "minecraft:wooded_badlands": "2024-07-09 21:57:06 -0300",
       "minecraft:bamboo_jungle": "2024-07-09 22:09:53 -0300",
@@ -3654,6 +3659,54 @@
   "minecraft:recipes/misc/bordure_indented_banner_pattern": {
     "criteria": {
       "has_vines": "2025-05-13 21:02:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-05-19 20:25:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-05-19 20:31:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-05-19 20:31:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-05-19 20:31:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-05-19 20:31:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-05-19 20:42:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-05-19 20:42:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-19 21:59:12 -0300"
     },
     "done": true
   },
