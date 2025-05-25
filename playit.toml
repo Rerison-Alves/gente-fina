@@ -1,4 +1,4 @@
-last_update = 1747705635096
+last_update = 1748199141152
 api_url = "https://api.playit.cloud/agent"
 ping_target_addresses = []
 control_address = "control.playit.gg"
@@ -8,17 +8,25 @@ ping_interval = 5000
 secret_key = "13edea0d47a0579cd34980806193844cf7a107985a569bc4fb0e90e37ff54005"
 
 [[mappings]]
-name = "unnamed"
+name = "backend"
+proto = "tcp"
+tunnel_ip = "147.185.221.28"
+tunnel_from_port = 51692
+local_ip = "192.168.3.235"
+local_port = 8080
+
+[[mappings]]
+name = "minecraft-bedrock"
 proto = "udp"
 tunnel_ip = "147.185.221.17"
 tunnel_from_port = 5033
-local_ip = "192.168.3.248"
+local_ip = "192.168.3.235"
 local_port = 19132
 
 [[mappings]]
-name = "unnamed"
+name = "minecraft-java"
 proto = "tcp"
 tunnel_ip = "147.185.221.17"
 tunnel_from_port = 15820
-local_ip = "192.168.3.248"
+local_ip = "192.168.3.235"
 local_port = 25565

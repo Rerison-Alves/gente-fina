@@ -1,635 +1,585 @@
-[21:43:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:43:42] [ServerMain/INFO]: Loaded 1373 recipes
-[21:43:42] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[21:43:42] [Server thread/INFO]: Loading properties
-[21:43:42] [Server thread/INFO]: This server is running CraftBukkit version 4494-Spigot-3dafb73-cac1fa1 (MC: 1.21.5) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[21:43:43] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
-[21:43:43] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
-[21:43:43] [Server thread/INFO]: Debug logging is disabled
-[21:43:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:43:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:43:43] [Server thread/INFO]: Default game type: SURVIVAL
-[21:43:43] [Server thread/INFO]: Generating keypair
-[21:43:43] [Server thread/INFO]: Starting Minecraft server on 192.168.3.235:25565
-[21:43:43] [Server thread/INFO]: Using default channel type
-[21:43:44] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.6.3
-[21:43:44] [Server thread/INFO]: [Harbor] Loading Harbor v1.6.3
-[21:43:44] [Server thread/INFO]: [CraftableSaddles] Loading CraftableSaddles v1.1.1
-[21:43:44] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.7.1-SNAPSHOT
-[21:43:45] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
-[21:43:45] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
-[21:43:45] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.26.1
-[21:43:45] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
-[21:43:46] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.5[32;1m.[0;39m[m
-[21:43:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:43:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:43:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:43:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:43:47] [Server thread/INFO]: Preparing level "world"
-[21:43:47] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:43:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[21:43:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:43:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:43:47] [Server thread/INFO]: Simulation Distance: 10
-[21:43:47] [Server thread/INFO]: View Distance: 10
-[21:43:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:43:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:43:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:43:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[21:43:47] [Server thread/INFO]: Mob Spawn Range: 6
-[21:43:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[21:43:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[21:43:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[21:43:47] [Server thread/INFO]: Max TNT Explosions: 100
-[21:43:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:43:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[21:43:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:43:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:43:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[21:43:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:43:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:43:48] [Server thread/INFO]: Simulation Distance: 10
-[21:43:48] [Server thread/INFO]: View Distance: 10
-[21:43:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:43:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:43:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:43:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Mob Spawn Range: 6
-[21:43:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[21:43:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[21:43:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[21:43:48] [Server thread/INFO]: Max TNT Explosions: 100
-[21:43:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:43:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[21:43:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:43:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:43:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[21:43:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:43:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:43:48] [Server thread/INFO]: Simulation Distance: 10
-[21:43:48] [Server thread/INFO]: View Distance: 10
-[21:43:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:43:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:43:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:43:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Mob Spawn Range: 6
-[21:43:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[21:43:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[21:43:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[21:43:48] [Server thread/INFO]: Max TNT Explosions: 100
-[21:43:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:43:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[21:43:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:43:48] [Server thread/INFO]: -------- World Settings For [world_midwut_main] --------
-[21:43:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[21:43:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:43:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:43:48] [Server thread/INFO]: Simulation Distance: 10
-[21:43:48] [Server thread/INFO]: View Distance: 10
-[21:43:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:43:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:43:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:43:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[21:43:48] [Server thread/INFO]: Mob Spawn Range: 6
-[21:43:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[21:43:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[21:43:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[21:43:48] [Server thread/INFO]: Max TNT Explosions: 100
-[21:43:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:43:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[21:43:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:43:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:43:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:43:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:43:49] [Worker-Main-1/INFO]: Preparing spawn area: 22%
-[21:43:49] [Server thread/INFO]: Time elapsed: 1288 ms
-[21:43:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:43:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:43:50] [Worker-Main-1/INFO]: Preparing spawn area: 93%
-[21:43:50] [Server thread/INFO]: Time elapsed: 612 ms
-[21:43:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:43:50] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:43:50] [Server thread/INFO]: Time elapsed: 163 ms
-[21:43:50] [Server thread/INFO]: Preparing start region for dimension midwut:main
-[21:43:50] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:43:50] [Server thread/INFO]: Time elapsed: 289 ms
-[21:43:50] [Server thread/INFO]: [Harbor] Enabling Harbor v1.6.3
-[21:43:50] [Server thread/INFO]: [Harbor] Essentials not present- registering fallback AFK detection system.
-[21:43:50] [Server thread/INFO]: [CraftableSaddles] Enabling CraftableSaddles v1.1.1
-[21:43:50] [Server thread/INFO]: [CraftableSaddles] CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 enabled
-[21:43:50] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[21:43:51] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.26.1
-[21:43:51] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.26.1) by ThizThizzyDizzy
-[21:43:51] [Server thread/INFO]: [TreeFeller] Server version: 1.21.5-R0.1-SNAPSHOT
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, DIRT, GRASS_BLOCK]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Overridables: [TALL_GRASS, FERN, CAVE_AIR, LARGE_FERN, AIR, TALL_SEAGRASS, WATER, SEAGRASS]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {JUNGLE_WOOD=JUNGLE_LOG, BIRCH_WOOD=BIRCH_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, OAK_WOOD=OAK_LOG, CHERRY_WOOD=CHERRY_LOG, MANGROVE_WOOD=MANGROVE_LOG, WARPED_HYPHAE=WARPED_STEM, SPRUCE_WOOD=SPRUCE_LOG, ACACIA_WOOD=ACACIA_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, PALE_OAK_WOOD=PALE_OAK_LOG}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Block Conversions: {MUDDY_MANGROVE_ROOTS=MUD}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Effects: []
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[21:43:51] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {auraskills/foraging=1.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {auraskills/foraging=0.0}
-[21:43:51] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[21:43:51] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[21:43:51] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[21:43:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:43:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:43:51] [Server thread/INFO]: [Geyser-Spigot] 
-[21:43:51] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.7.1-b830 (git-master-472ed8c)
-[21:43:51] [Server thread/INFO]: [Geyser-Spigot] 
-[21:43:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:43:55] [Server thread/WARN]: [Geyser-Spigot] Third-party ears/capes have been removed from Geyser, if you still wish to have this functionality please use the extension: https://github.com/GeyserMC/ThirdPartyCosmetics
-[21:43:56] [Server thread/INFO]: [Geyser-Spigot] Geyser iniciado em 192.168.3.235: 19132
-[21:43:56] [Server thread/INFO]: [Geyser-Spigot] Concluído (4,624 s)! Execute /geyser help para obter ajuda!
-[21:43:56] [Server thread/INFO]: Done (8.851s)! For help, type "help"
-[21:43:56] [Server thread/INFO]: Starting GS4 status listener
-[21:43:56] [Server thread/INFO]: Thread Query Listener started
-[21:43:56] [Query Listener #1/INFO]: Query running on 192.168.3.235:25565
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.3[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7eb6dc6[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
-[21:43:56] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
-[21:44:03] [User Authenticator #1/INFO]: UUID of player LuLaB0ludo is 53e174ec-b48a-3bf9-b23c-c0fb1c426266
-[21:44:03] [Server thread/INFO]: LuLaB0ludo joined the game
-[21:44:03] [Server thread/INFO]: LuLaB0ludo[/192.168.3.235:52800] logged in with entity id 99 at ([world]-1303.1878466739327, 70.84375002384186, 332.94020886434566)
-[21:45:11] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Jogador conectado com o nome de usuário Laissrc
-[21:45:11] [localSession-7-2/INFO]: [Geyser-Spigot] Laissrc (logado como: Laissrc) conectou-se ao servidor Java
-[21:45:11] [User Authenticator #2/INFO]: UUID of player Laissrc is bc3759cb-3b29-3a00-a110-b1f3483abece
-[21:45:12] [Server thread/INFO]: Laissrc joined the game
-[21:45:12] [Server thread/INFO]: Laissrc[/192.168.3.190:0] logged in with entity id 696 at ([world]-1107.6807861328125, 104.84375002384186, 187.89370727539062)
-[21:45:13] [Server thread/WARN]: UUID of added entity already exists: EntityCow['Cow'/748, l='ServerLevel[world]', x=-1022.46, y=102.00, z=162.46]
-[21:45:13] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/752, l='ServerLevel[world]', x=-1020.71, y=91.00, z=86.58]
-[21:45:13] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/753, l='ServerLevel[world]', x=-1020.86, y=91.00, z=80.49]
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -17.380320363701003,8.0,6.122035699825631
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -17.826607211364944,8.0,6.218143802763791
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -18.278175257304838,9.0,6.265674434040875
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -18.72967489962116,9.0,6.256368224371556
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -19.180248722127317,9.0,6.211205761028054
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -19.630317046958453,9.0,6.146465780904407
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -20.080004932831343,9.0,6.070508394175874
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -20.527212838204832,9.0,5.9783324828378
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -20.967213134998474,9.0,5.858021490363228
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -21.394892419634743,9.0,5.702267648414079
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -21.806537212399007,8.921599998474122,5.509922818760913
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -22.056766699646232,8.766367993957516,5.400936817362265
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -22.309718172168004,8.535840625044557,5.296531853594388
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -22.565104772387713,8.231523797587016,5.196097349021898
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -22.822678910465584,8.0,5.0991455665622425
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -23.308794631108185,8.0,4.95535563612151
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -23.825937093644825,8.0,4.821282519122008
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -24.360020159223495,8.0,4.692514782877652
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -24.90335279513738,8.0,4.566643784862094
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -25.45173569704093,8.0,4.4423544061031635
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -26.002876044494997,8.0,4.318928591558631
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -26.555521957394603,8.0,4.195974283129942
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -27.10898990912301,8.0,4.073277417070415
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -27.662906694103867,8.0,3.9507211145607357
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -28.217068542069228,8.0,3.8282415597582258
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -28.771364194439684,8.0,3.7058039092086688
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.074009655786995,8.0,3.6389529442437265
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.239254096876266,8.0,3.602452313133199
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.329477572190626,8.0,3.582522966232034
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.378739595434126,8.0,3.5716415415600977
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.405636663249197,8.0,3.565700282999103
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.420322463982075,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.428340912113526,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -29.43271898530179,8.0,3.5624563554480346
-[21:49:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5676ms or 113 ticks behind
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -19.4844970703125,2.0,5.13458251953125
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -19.971923828125,2.0,5.322052001953125
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -20.4591064453125,2.0,5.50970458984375
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -20.9461669921875,2.0,5.69744873046875
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -21.4332275390625,3.0,5.885223388671875
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -21.9237060546875,3.0,6.070587158203125
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -22.42236328125,3.0,6.249664306640625
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -22.930908203125,3.0,6.420745849609375
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -23.453125,4.0,6.579254150390625
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -23.98681640625,4.0,6.726348876953125
-[21:49:01] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -24.52978515625,4.0,6.863189697265625
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.08124401255418,0.0,20.288602471367085
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.2019826093801385,0.0,20.843411938365534
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.3228420461095993,0.0,21.398198907687174
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.4437674614339358,0.0,21.95297359327583
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.564728901075341,0.0,22.50774157194553
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.6857100099960007,0.0,23.06250588863702
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.806701858344468,0.0,23.617268205888195
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -2.9276995704212823,0.0,24.1720294314448
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.04870048409407,0.0,24.726790060936082
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.1697031458384117,0.0,25.281550364975715
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.290706762029913,1.0,25.836310491318727
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.4117108993498277,0.9215999984741217,26.391070520639346
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.483272781598771,0.7663679939575161,26.719155628703106
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.5538877119204244,0.5358406250445569,26.72851358310811
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.623640915963506,0.23152379758701613,26.72851358310811
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.692609949070402,1.0,26.753699679980286
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.8103079262116353,1.0,27.028479993949304
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.8745710291950672,1.0,27.17851006280273
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9096586874995864,1.0,27.260426489911538
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.928816551159116,1.0,27.30515286430807
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9392767459321476,1.0,27.32957346756507
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9449880129416215,1.0,27.34290711849212
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.350187292743954
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -3.9481063650910073,1.0,27.35416226834718
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -4.076433687476992,1.0,27.57773333906391
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -4.279472113477823,1.0,27.920643490921293
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -4.523874033150378,1.0,28.32836784334006
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -4.790860422991045,1.0,28.77148075337584
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -5.070177934975618,1.0,29.233915818114838
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -5.35681965646495,1.0,29.706541499648438
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -5.647460396808356,1.0,30.184731258598163
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -5.940284601699659,1.0,30.665959004169963
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -6.23430097837263,2.0,31.148845490630038
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -6.528968280913887,2.0,31.632637649720323
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -6.823990989020558,2.0,32.11692430612413
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -7.119207748588451,2.0,32.601480958092566
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -7.414530460266633,2.0,33.08618502765637
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -7.710480419722899,2.0,33.57062163037756
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -8.006772856505904,2.0,34.05491219618568
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -8.303252285930967,2.0,34.53912302583012
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -8.599833813350415,2.0,35.023290319523994
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -8.89647108628128,2.0,35.50743384258624
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -9.193138796264975,2.0,35.99156438688203
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -9.489823124881468,2.0,36.475687844770505
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -9.785355713321223,2.0,36.960514671238
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -10.075043847737788,2.0,37.44880121995334
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -10.359779322590157,2.0,37.93997873196372
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -10.640041236900288,1.9215999984741217,38.43372277484207
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -10.805543892762671,1.766367993957516,38.725863162903124
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -10.968630946812937,1.5358406250445569,39.014267033036845
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.12951980315097,1.2315237975870161,39.29927067175868
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.288408299513094,1.0,39.5811800998066
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.55779316235271,1.0,40.063278776894094
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.704877314547275,1.0,40.326504685158284
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.785185270973443,1.0,40.470226047764186
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.82903342027521,1.0,40.54869792086174
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.852974512574747,1.0,40.59154356854958
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.86604635048866,1.0,40.614937294904394
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.873183574818768,1.0,40.627710270977786
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.877080499755493,1.0,40.634684316723906
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.877080499755493,1.0,40.63849214614356
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -11.877080499755493,1.0,40.63849214614356
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -12.001876826738453,1.0,40.864053236314135
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -12.194811956168678,1.0,41.212770696022744
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -12.424950876056528,1.0,41.62873154130966
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -12.675403067893512,1.0,42.08140727938678
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -12.936946307503149,1.0,42.554129351255824
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -13.20454525989976,1.0,43.03779672264659
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -13.475450631862259,1.0,43.52744022827039
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -13.74816130911745,1.0,44.02034670356443
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -14.021857683176904,1.0,44.51503476050527
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -14.296092247754132,1.0,45.01069556113828
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -14.570620664388116,1.0,45.506887479888974
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -14.845309524263712,2.0,46.00336938916553
-[21:54:07] [Server thread/WARN]: Horse (vehicle of LuLaB0ludo) moved too quickly! -15.120085986159438,2.0,46.50000963328762
-[21:54:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5867ms or 117 ticks behind
-[21:54:07] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -5.847900390625,-1.0,19.12310791015625
-[21:54:07] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -6.015625,-1.0,19.6817626953125
-[21:54:07] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -6.183349609375,-1.0,20.24041748046875
-[21:54:07] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -6.35107421875,-1.0,20.799072265625
-[21:54:07] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -6.518798828125,-1.0,21.35772705078125
-[21:54:07] [Server thread/WARN]: Horse (vehicle of Laissrc) moved too quickly! -6.6865234375,-1.0,21.9163818359375
-[21:59:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5074ms or 101 ticks behind
-[21:59:41] [Server thread/WARN]: Horse (vehicle of Laissrc) moved wrongly! 0.2535400390625
-[21:59:41] [Server thread/WARN]: Horse (vehicle of Laissrc) moved wrongly! 0.7659912109375
-[21:59:41] [Server thread/WARN]: Horse (vehicle of Laissrc) moved wrongly! 0.4561767578125
-[21:59:41] [Server thread/WARN]: Horse (vehicle of Laissrc) moved wrongly! 0.4937744140625
-[21:59:41] [Server thread/WARN]: Horse (vehicle of Laissrc) moved wrongly! 0.265625
-[21:59:41] [Server thread/WARN]: Horse (vehicle of Laissrc) moved wrongly! 0.2884521484375
-[22:04:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4968ms or 99 ticks behind
-[22:09:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
-[22:09:31] [Server thread/INFO]: LuLaB0ludo issued server command: /seed
-[22:09:36] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Laissrc se desconectou do servidor Java: Cliente Bedrock desconectado
-[22:09:36] [Server thread/INFO]: Laissrc lost connection: Disconnected
-[22:09:36] [Server thread/INFO]: Laissrc left the game
-[22:12:09] [Server thread/INFO]: LuLaB0ludo lost connection: Disconnected
-[22:12:09] [Server thread/INFO]: LuLaB0ludo left the game
-[22:13:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:13:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2891ms or 57 ticks behind
-[22:40:56] [Server thread/INFO]: Stopping the server
-[22:40:57] [Server thread/INFO]: Stopping server
-[22:40:57] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.26.1
-[22:40:57] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.26.1) by ThizThizzyDizzy
-[22:40:57] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[22:40:57] [Server thread/INFO]: [Geyser-Spigot] Desligando o Geyser.
-[22:40:57] [Server thread/INFO]: [Geyser-Spigot] Geyser encerrado com sucesso.
-[22:40:57] [Server thread/INFO]: [CraftableSaddles] Disabling CraftableSaddles v1.1.1
-[22:40:57] [Server thread/INFO]: [CraftableSaddles] CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 disabled
-[22:40:57] [Server thread/INFO]: [Harbor] Disabling Harbor v1.6.3
-[22:40:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
-[22:40:57] [Server thread/INFO]: Saving players
-[22:40:57] [Server thread/INFO]: Saving worlds
-[22:40:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:41:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:41:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:41:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_midwut_main]'/midwut:main
-[22:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (main): All chunks are saved
-[22:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:41:11] [Server thread/INFO]: Thread Query Listener stopped
+[12:06:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:06:12] [ServerMain/INFO]: Loaded 1373 recipes
+[12:06:12] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[12:06:12] [Server thread/INFO]: Loading properties
+[12:06:13] [Server thread/INFO]: This server is running CraftBukkit version 4494-Spigot-3dafb73-cac1fa1 (MC: 1.21.5) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[12:06:13] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[12:06:13] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[12:06:13] [Server thread/INFO]: Debug logging is disabled
+[12:06:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:06:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:06:13] [Server thread/INFO]: Default game type: SURVIVAL
+[12:06:13] [Server thread/INFO]: Generating keypair
+[12:06:14] [Server thread/INFO]: Starting Minecraft server on 192.168.3.235:25565
+[12:06:14] [Server thread/INFO]: Using default channel type
+[12:06:14] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.6.3
+[12:06:14] [Server thread/INFO]: [Harbor] Loading Harbor v1.6.3
+[12:06:14] [Server thread/INFO]: [CraftableSaddles] Loading CraftableSaddles v1.1.1
+[12:06:14] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.7.1-SNAPSHOT
+[12:06:15] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
+[12:06:15] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
+[12:06:15] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.26.1
+[12:06:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
+[12:06:17] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.5[32;1m.[0;39m[m
+[12:06:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:06:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:06:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:06:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:06:17] [Server thread/INFO]: Preparing level "world"
+[12:06:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:06:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:06:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:06:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:06:17] [Server thread/INFO]: Simulation Distance: 10
+[12:06:17] [Server thread/INFO]: View Distance: 10
+[12:06:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:06:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:06:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:06:17] [Server thread/INFO]: Mob Spawn Range: 6
+[12:06:17] [Server thread/INFO]: Max TNT Explosions: 100
+[12:06:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:06:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:06:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:06:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:06:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:06:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:06:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:06:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:06:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:06:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:06:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:06:18] [Server thread/INFO]: Simulation Distance: 10
+[12:06:18] [Server thread/INFO]: View Distance: 10
+[12:06:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:06:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:06:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:06:18] [Server thread/INFO]: Mob Spawn Range: 6
+[12:06:18] [Server thread/INFO]: Max TNT Explosions: 100
+[12:06:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:06:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:06:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:06:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:06:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:06:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:06:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:06:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:06:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:06:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:06:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:06:19] [Server thread/INFO]: Simulation Distance: 10
+[12:06:19] [Server thread/INFO]: View Distance: 10
+[12:06:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:06:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:06:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:06:19] [Server thread/INFO]: Mob Spawn Range: 6
+[12:06:19] [Server thread/INFO]: Max TNT Explosions: 100
+[12:06:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:06:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:06:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:06:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:06:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:06:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:06:19] [Server thread/INFO]: -------- World Settings For [world_midwut_main] --------
+[12:06:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:06:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:06:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:06:19] [Server thread/INFO]: Simulation Distance: 10
+[12:06:19] [Server thread/INFO]: View Distance: 10
+[12:06:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:06:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:06:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:06:19] [Server thread/INFO]: Mob Spawn Range: 6
+[12:06:19] [Server thread/INFO]: Max TNT Explosions: 100
+[12:06:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:06:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:06:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:06:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:06:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:06:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:06:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:06:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:06:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:06:20] [Worker-Main-3/INFO]: Preparing spawn area: 40%
+[12:06:20] [Server thread/INFO]: Time elapsed: 559 ms
+[12:06:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:06:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:06:20] [Worker-Main-4/INFO]: Preparing spawn area: 79%
+[12:06:21] [Server thread/INFO]: Time elapsed: 717 ms
+[12:06:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:06:21] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:06:21] [Server thread/INFO]: Time elapsed: 162 ms
+[12:06:21] [Server thread/INFO]: Preparing start region for dimension midwut:main
+[12:06:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:21] [Server thread/INFO]: Time elapsed: 382 ms
+[12:06:21] [Server thread/INFO]: [Harbor] Enabling Harbor v1.6.3
+[12:06:21] [Server thread/INFO]: [Harbor] Essentials not present- registering fallback AFK detection system.
+[12:06:21] [Server thread/INFO]: [CraftableSaddles] Enabling CraftableSaddles v1.1.1
+[12:06:21] [Server thread/INFO]: [CraftableSaddles] CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 enabled
+[12:06:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[12:06:22] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.26.1
+[12:06:22] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.26.1) by ThizThizzyDizzy
+[12:06:22] [Server thread/INFO]: [TreeFeller] Server version: 1.21.5-R0.1-SNAPSHOT
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Grass: [DIRT, PODZOL, GRASS_BLOCK]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Overridables: [TALL_SEAGRASS, TALL_GRASS, FERN, LARGE_FERN, AIR, CAVE_AIR, WATER, SEAGRASS]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {OAK_WOOD=OAK_LOG, PALE_OAK_WOOD=PALE_OAK_LOG, WARPED_HYPHAE=WARPED_STEM, SPRUCE_WOOD=SPRUCE_LOG, JUNGLE_WOOD=JUNGLE_LOG, ACACIA_WOOD=ACACIA_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, CHERRY_WOOD=CHERRY_LOG, BIRCH_WOOD=BIRCH_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, MANGROVE_WOOD=MANGROVE_LOG}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Block Conversions: {MUDDY_MANGROVE_ROOTS=MUD}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Effects: []
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[12:06:22] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {auraskills/foraging=1.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {auraskills/foraging=0.0}
+[12:06:22] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[12:06:22] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[12:06:22] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[12:06:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:06:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:06:22] [Server thread/INFO]: [Geyser-Spigot] 
+[12:06:22] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.7.1-b830 (git-master-472ed8c)
+[12:06:22] [Server thread/INFO]: [Geyser-Spigot] 
+[12:06:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:06:26] [Server thread/WARN]: [Geyser-Spigot] Third-party ears/capes have been removed from Geyser, if you still wish to have this functionality please use the extension: https://github.com/GeyserMC/ThirdPartyCosmetics
+[12:06:27] [Server thread/INFO]: [Geyser-Spigot] Geyser iniciado em 192.168.3.235: 19132
+[12:06:27] [Server thread/INFO]: [Geyser-Spigot] Concluído (4,301 s)! Execute /geyser help para obter ajuda!
+[12:06:27] [Server thread/INFO]: Done (9.407s)! For help, type "help"
+[12:06:27] [Server thread/INFO]: Starting GS4 status listener
+[12:06:27] [Server thread/INFO]: Thread Query Listener started
+[12:06:27] [Query Listener #1/INFO]: Query running on 192.168.3.235:25565
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.3[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7eb6dc6[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[12:06:28] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[12:07:27] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2618ms or 52 ticks behind
+[12:33:34] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Jogador conectado com o nome de usuário LuLaB0ludo
+[12:33:34] [localSession-7-2/INFO]: [Geyser-Spigot] LuLaB0ludo (logado como: LuLaB0ludo) conectou-se ao servidor Java
+[12:33:34] [User Authenticator #1/INFO]: UUID of player LuLaB0ludo is 53e174ec-b48a-3bf9-b23c-c0fb1c426266
+[12:33:35] [Server thread/INFO]: LuLaB0ludo joined the game
+[12:33:35] [Server thread/INFO]: LuLaB0ludo[/192.168.3.235:0] logged in with entity id 129 at ([world]-69.5, 70.0625, 19.5)
+[12:34:58] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] LuLaB0ludo se desconectou do servidor Java: Cliente Bedrock desconectado
+[12:34:58] [Server thread/INFO]: LuLaB0ludo lost connection: Disconnected
+[12:34:58] [Server thread/INFO]: LuLaB0ludo left the game
+[12:35:58] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:36:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3322ms or 66 ticks behind
+[14:32:32] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Jogador conectado com o nome de usuário LuLaB0ludo
+[14:32:32] [localSession-7-3/INFO]: [Geyser-Spigot] LuLaB0ludo (logado como: LuLaB0ludo) conectou-se ao servidor Java
+[14:32:32] [User Authenticator #2/INFO]: UUID of player LuLaB0ludo is 53e174ec-b48a-3bf9-b23c-c0fb1c426266
+[14:32:32] [Server thread/INFO]: LuLaB0ludo joined the game
+[14:32:32] [Server thread/INFO]: LuLaB0ludo[/192.168.3.235:0] logged in with entity id 548 at ([world]-72.616646, 70.0, 20.515667)
+[14:33:29] [nioEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Jogador conectado com o nome de usuário Laissrc
+[14:33:29] [localSession-7-4/INFO]: [Geyser-Spigot] Laissrc (logado como: Laissrc) conectou-se ao servidor Java
+[14:33:29] [User Authenticator #3/INFO]: UUID of player Laissrc is bc3759cb-3b29-3a00-a110-b1f3483abece
+[14:33:29] [Server thread/INFO]: Laissrc joined the game
+[14:33:29] [Server thread/INFO]: Laissrc[/192.168.3.235:0] logged in with entity id 870 at ([world]-86.71988, 65.0, 17.122112)
+[14:37:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4445ms or 88 ticks behind
+[14:42:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5781ms or 115 ticks behind
+[14:47:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5133ms or 102 ticks behind
+[14:52:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5408ms or 108 ticks behind
+[14:57:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4934ms or 98 ticks behind
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 19.995361328125,0.0,-1.8738250732421875
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 20.366485595703125,0.0,-1.9107208251953125
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 20.736495971679688,0.0,-1.947174072265625
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 21.105621337890625,0.0,-1.9830169677734375
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 21.47406005859375,0.0,-2.0180816650390625
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 21.841964721679688,0.0,-2.052215576171875
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 22.209457397460938,0.0,-2.08526611328125
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 22.577667236328125,0.0,-2.117218017578125
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 22.947219848632812,0.0,-2.1480712890625
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 23.317733764648438,0.0,-2.177825927734375
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 23.690628051757812,0.0,-2.2067108154296875
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 24.062255859375,0.0,-2.234649658203125
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 24.432861328125,0.0,-2.2618865966796875
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 24.802627563476562,0.0,-2.2886810302734375
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 25.17169189453125,0.0,-2.3153076171875
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 25.540176391601562,0.0,-2.342010498046875
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 25.908599853515625,0.0,-2.369049072265625
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 26.27783203125,0.0,-2.396636962890625
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 26.647857666015625,0.0,-2.4248809814453125
+[14:57:58] [Server thread/WARN]: Spruce Boat (vehicle of LuLaB0ludo) moved too quickly! 27.018646240234375,0.0,-2.4538726806640625
+[15:03:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5708ms or 114 ticks behind
+[15:08:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6474ms or 129 ticks behind
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -15.1822509765625,0.0,13.163482666015625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -15.492889404296875,0.0,13.3736572265625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -15.803619384765625,0.0,13.5831298828125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -16.114501953125,0.0,13.7919921875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -16.42559814453125,0.0,14.00018310546875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -16.7369384765625,0.0,14.207763671875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -17.049591064453125,0.0,14.415313720703125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -17.362396240234375,0.0,14.622039794921875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -17.6754150390625,0.0,14.82794189453125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -17.98870849609375,0.0,15.03302001953125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -18.303314208984375,0.0,15.238006591796875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -18.6180419921875,0.0,15.442138671875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -18.93292236328125,0.0,15.64544677734375
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -19.248016357421875,0.0,15.84796142578125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -17.30865478515625,0.0,10.64959716796875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -17.63427734375,0.0,10.841949462890625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -17.959747314453125,0.0,11.03436279296875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -18.286163330078125,0.0,11.227447509765625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -18.6123046875,0.0,11.420440673828125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -18.938232421875,0.0,11.61334228515625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -19.264007568359375,0.0,11.806121826171875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -19.5906982421875,0.0,11.99951171875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -19.91705322265625,0.0,12.1927490234375
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -20.24310302734375,0.0,12.385894775390625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -20.56890869140625,0.0,12.5789794921875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -20.89453125,0.0,12.772003173828125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -21.219970703125,0.0,12.96502685546875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -21.546356201171875,0.0,13.15863037109375
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -21.872467041015625,0.0,13.35205078125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -22.1983642578125,0.0,13.545318603515625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -22.52410888671875,0.0,13.7384033203125
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -22.85076904296875,0.0,13.9320068359375
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -23.177093505859375,0.0,14.125457763671875
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -23.503143310546875,0.0,14.318756103515625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -23.828948974609375,0.0,14.511962890625
+[15:08:10] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! -24.154571533203125,0.0,14.705078125
+[15:13:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5842ms or 116 ticks behind
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 20.0262451171875,0.0,3.6684646606445312
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 20.3790283203125,0.0,3.7973403930664062
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 20.7318115234375,0.0,3.9261627197265625
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 21.08697509765625,0.0,4.055717468261719
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 21.441741943359375,0.0,4.184959411621094
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 21.79620361328125,0.0,4.313873291015625
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 22.150604248046875,0.0,4.4425048828125
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 22.505096435546875,0.0,4.570892333984375
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 22.85980224609375,0.0,4.6990814208984375
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 23.21453857421875,0.0,4.827033996582031
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 23.569061279296875,0.0,4.954681396484375
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 23.923126220703125,0.0,5.082000732421875
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 24.27667236328125,0.0,5.209053039550781
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 24.631683349609375,0.0,5.336662292480469
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 24.98553466796875,0.0,5.4639892578125
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 25.33837890625,0.0,5.591224670410156
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 25.69024658203125,0.0,5.718498229980469
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 26.041229248046875,0.0,5.845977783203125
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 26.391326904296875,0.0,5.973777770996094
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 26.740081787109375,0.0,6.101875305175781
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 27.08740234375,0.0,6.230377197265625
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 27.433319091796875,0.0,6.359458923339844
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 27.777984619140625,0.0,6.489341735839844
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 28.1236572265625,0.0,6.62109375
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 28.46771240234375,0.0,6.753822326660156
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 28.810943603515625,0.0,6.887969970703125
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 29.1546630859375,0.0,7.024116516113281
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 29.499176025390625,0.0,7.1623687744140625
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 29.8441162109375,0.0,7.302482604980469
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 30.1893310546875,0.0,7.444267272949219
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 30.534454345703125,0.0,7.587409973144531
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 30.879486083984375,0.0,7.7317352294921875
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 31.224395751953125,0.0,7.8770751953125
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 31.57147216796875,0.0,8.024246215820312
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 31.91802978515625,0.0,8.171920776367188
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 32.264190673828125,0.0,8.319999694824219
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 32.609893798828125,0.0,8.46832275390625
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 32.953399658203125,0.0,8.615928649902344
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 33.2945556640625,0.0,8.762466430664062
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 33.6337890625,0.0,8.907814025878906
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 33.971466064453125,0.0,9.051795959472656
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 34.307769775390625,0.0,9.194145202636719
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 34.64300537109375,0.0,9.334663391113281
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 34.979339599609375,0.0,9.473854064941406
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 35.3131103515625,0.0,9.609916687011719
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 35.64453125,0.0,9.742523193359375
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 35.97406005859375,0.0,9.871437072753906
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 36.30194091796875,0.0,9.996330261230469
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 36.628814697265625,0.0,10.117012023925781
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 36.9552001953125,0.0,10.233261108398438
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 37.281494140625,0.0,10.3448486328125
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 37.608856201171875,0.0,10.451805114746094
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 37.9388427734375,0.0,10.554306030273438
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 38.274169921875,0.0,10.652847290039062
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 38.612518310546875,0.0,10.746841430664062
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 19.280792236328125,0.0,7.2967987060546875
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved wrongly! 7.110595703125
+[15:13:16] [Server thread/WARN]: Jungle Boat (vehicle of LuLaB0ludo) moved too quickly! 19.972991943359375,0.0,7.462837219238281
+[15:18:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4319ms or 86 ticks behind
+[15:23:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4995ms or 99 ticks behind
+[15:23:57] [nioEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Laissrc se desconectou do servidor Java: Cliente Bedrock desconectado
+[15:23:57] [Server thread/INFO]: Laissrc lost connection: Disconnected
+[15:23:57] [Server thread/INFO]: Laissrc left the game
+[15:27:48] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] LuLaB0ludo se desconectou do servidor Java: Cliente Bedrock desconectado
+[15:27:48] [Server thread/INFO]: LuLaB0ludo lost connection: Disconnected
+[15:27:49] [Server thread/INFO]: LuLaB0ludo left the game
+[15:28:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3359ms or 67 ticks behind
+[15:28:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:28:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3253ms or 65 ticks behind
+[15:51:35] [Server thread/INFO]: Stopping the server
+[15:51:35] [Server thread/INFO]: Stopping server
+[15:51:35] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.26.1
+[15:51:35] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.26.1) by ThizThizzyDizzy
+[15:51:35] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[15:51:35] [Server thread/INFO]: [Geyser-Spigot] Desligando o Geyser.
+[15:51:35] [Server thread/INFO]: [Geyser-Spigot] Geyser encerrado com sucesso.
+[15:51:35] [Server thread/INFO]: [CraftableSaddles] Disabling CraftableSaddles v1.1.1
+[15:51:35] [Server thread/INFO]: [CraftableSaddles] CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 disabled
+[15:51:35] [Server thread/INFO]: [Harbor] Disabling Harbor v1.6.3
+[15:51:35] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
+[15:51:35] [Server thread/INFO]: Saving players
+[15:51:35] [Server thread/INFO]: Saving worlds
+[15:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:51:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:51:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_midwut_main]'/midwut:main
+[15:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (main): All chunks are saved
+[15:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:51:52] [Server thread/INFO]: Thread Query Listener stopped
