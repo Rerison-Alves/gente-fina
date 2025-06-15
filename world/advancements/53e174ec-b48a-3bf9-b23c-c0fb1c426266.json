@@ -538,7 +538,8 @@
       "minecraft:wolf": "2024-07-09 14:00:03 -0300",
       "minecraft:horse": "2024-07-17 14:14:28 -0300",
       "minecraft:sheep": "2024-07-09 12:57:37 -0300",
-      "minecraft:mule": "2024-07-21 15:33:06 -0300"
+      "minecraft:mule": "2024-07-21 15:33:06 -0300",
+      "minecraft:bee": "2025-06-14 21:28:20 -0300"
     },
     "done": false
   },
@@ -558,6 +559,7 @@
     "criteria": {
       "apple": "2024-07-07 15:31:00 -0300",
       "bread": "2024-07-07 15:30:34 -0300",
+      "cooked_chicken": "2025-06-14 22:09:10 -0300",
       "cooked_mutton": "2024-07-08 14:14:50 -0300",
       "potato": "2024-07-09 13:24:11 -0300",
       "sweet_berries": "2025-06-02 20:33:45 -0300",
@@ -3817,6 +3819,30 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-06-02 23:01:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-06-14 21:48:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-06-14 21:33:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-06-14 21:29:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-06-14 21:29:54 -0300"
     },
     "done": true
   },

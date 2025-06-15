@@ -3775,5 +3775,11 @@
     },
     "done": true
   },
+  "minecraft:husbandry/remove_wolf_armor": {
+    "criteria": {
+      "remove_wolf_armor": "2025-06-14 21:26:07 -0300"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }
